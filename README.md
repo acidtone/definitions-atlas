@@ -35,6 +35,7 @@
 6. In your browser (or Postman), go to the following URLs to test your endpoints:
 
     ```js
+    http://localhost:3000
     http://localhost:3000/api/definitions
     http://localhost:3000/api/definitions/callback
     ```

@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/api/v0/definitions')
+fetch('http://localhost:3000/api/definitions')
   .then(function(response){
     // JSON that is returned from the server must be converted to a JS object asynchronously.
     if (!response.ok) {
