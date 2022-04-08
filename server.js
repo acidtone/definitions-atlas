@@ -1,11 +1,11 @@
 const dotenv = require('dotenv').config();
 const express = require('express');
-const api = require('./routes/api-v0');
+const api = require('./routes/api');
 
 const app = express();
 
 app.use(express.static('./public'));
-app.use('/api/v0', api);
+app.use('/api', api);
 
 app.use((req, res) => {
   res.sendStatus(404);
